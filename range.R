@@ -1,5 +1,5 @@
 val<-function(seq_num,seq1=NULL){
-  seq_num<-seq_num[!duplicated(seq_num)]
+  seq_num<-seq_num[!duplicated(seq_num)] #ektselktmeslksmlkt
   con_num<-c()
   con<-c()
   if(is.null(seq1)){
